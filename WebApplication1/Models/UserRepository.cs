@@ -3,6 +3,7 @@ using System.Data.Common;
 using System.Data.SqlTypes;
 using Microsoft.Data.SqlClient;
 using System.Data;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication1.Models
 {
@@ -50,13 +51,33 @@ namespace WebApplication1.Models
                         User user;
                         if (reader.Read())
                         {
-                            user = new(id, (string)reader[1], (string)reader[2]);
+                            string? username = reader.IsDBNull(1) ? "UnKnown" : reader[1].ToString();
+                            string? password = reader.IsDBNull(2) ? "Unknown" : reader[2].ToString();
+                            user = new(id, username, password);
                             return user;
                         }
                         // user not registered
                         return new User(id, "No User Registered!", "none");
                     }
                     
+                }
+            }
+        }
+
+        public bool Register(User user)
+        {
+
+			using (SqlConnection connection = new(connectionString))
+            {
+                connection.Open();
+				String? Query = @"Insert into Users ( Username , Password ) values ( @username, @password )";
+                using(SqlCommand cmd = new (Query, connection))
+                {
+                    cmd.Parameters.Add("@username", SqlDbType.VarChar).Value = user.Username?.Trim() ??  "None";
+                    cmd.Parameters.Add("@password", SqlDbType.VarChar).Value = user.Password?.Trim() ?? "Not Set";
+
+                    int rowsAffected = cmd.ExecuteNonQuery();
+                    return rowsAffected == 1;
                 }
             }
         }
