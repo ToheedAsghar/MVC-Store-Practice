@@ -32,13 +32,6 @@ namespace WebApplication1.Controllers
             }
         }
 
-        public ViewResult UserById(int id)
-        {
-            UserRepository userRepo = new();
-            var user = userRepo.GetUser(id);
-            return View(user);
-        }
-
         [HttpGet]
         public ViewResult Register()
         {
@@ -46,13 +39,28 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPost]
-        public ViewResult Register(string un, string pswd)
+        public IActionResult Register(string? un, string? pswd)
         {
             User user = new(-1, un, pswd);
             UserRepository repo = new();
             bool retVal = repo.Register(user);
-            if (retVal) { RedirectToAction("Index", "Store"); }
-            return View();
+			//if (retVal) { RedirectToAction("Index", "Store"); }
+			if (retVal)
+			{
+				return RedirectToAction("Login", "Store");
+			}
+			else
+			{
+				return View();
+			}
         }
-    }
+
+		public ViewResult UserById(int id)
+		{
+			UserRepository userRepo = new();
+			var user = userRepo.GetUser(id);
+			return View(user);
+		}
+
+	}
 }
