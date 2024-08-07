@@ -44,7 +44,6 @@ namespace WebApplication1.Controllers
             User user = new(-1, un, pswd);
             UserRepository repo = new();
             bool retVal = repo.Register(user);
-			//if (retVal) { RedirectToAction("Index", "Store"); }
 			if (retVal)
 			{
 				return RedirectToAction("Login", "Store");
