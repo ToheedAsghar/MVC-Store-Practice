@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Toheed\\source\\repos\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D160ACBF-4565-4C2F-B508-92CDE32C8869}|WebApplication1\\WebApplication1.csproj|c:\\users\\toheed\\source\\repos\\webapplication1\\webapplication1\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D160ACBF-4565-4C2F-B508-92CDE32C8869}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D160ACBF-4565-4C2F-B508-92CDE32C8869}|WebApplication1\\WebApplication1.csproj|c:\\users\\toheed\\source\\repos\\webapplication1\\webapplication1\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D160ACBF-4565-4C2F-B508-92CDE32C8869}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D160ACBF-4565-4C2F-B508-92CDE32C8869}|WebApplication1\\WebApplication1.csproj|c:\\users\\toheed\\source\\repos\\webapplication1\\webapplication1\\models\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D160ACBF-4565-4C2F-B508-92CDE32C8869}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D160ACBF-4565-4C2F-B508-92CDE32C8869}|WebApplication1\\WebApplication1.csproj|c:\\users\\toheed\\source\\repos\\webapplication1\\webapplication1\\views\\store\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D160ACBF-4565-4C2F-B508-92CDE32C8869}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\store\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D160ACBF-4565-4C2F-B508-92CDE32C8869}|WebApplication1\\WebApplication1.csproj|c:\\users\\toheed\\source\\repos\\webapplication1\\webapplication1\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D160ACBF-4565-4C2F-B508-92CDE32C8869}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Toheed\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Store\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Store\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Toheed\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Store\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Store\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T15:53:28.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Toheed\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Store\\Login.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Store\\Login.cshtml",
@@ -38,12 +55,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Store\\Login.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T16:54:50.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T16:54:50.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Toheed\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Store\\Register.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Store\\Register.cshtml",
@@ -56,26 +72,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Toheed\\source\\repos\\WebApplication1\\WebApplication1\\Models\\UserRepository.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\UserRepository.cs",
               "ToolTip": "C:\\Users\\Toheed\\source\\repos\\WebApplication1\\WebApplication1\\Models\\UserRepository.cs",
               "RelativeToolTip": "WebApplication1\\Models\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T13:25:10.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "StoreController.cs",
               "DocumentMoniker": "C:\\Users\\Toheed\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\StoreController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StoreController.cs",
               "ToolTip": "C:\\Users\\Toheed\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\StoreController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\StoreController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAwwCwAAAAoAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T13:20:20.408Z",
               "EditorCaption": ""
